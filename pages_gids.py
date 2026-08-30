@@ -7,8 +7,7 @@ CR = [("/dakwerken/", "Dakwerken")]
 
 def rec(text, path="", anchor=None):
     return ('<div class="rec"><h3>Uitvoering</h3><p>%s</p>'
-            '<p>De redactie beveelt %s aan voor dakwerken in Vlaanderen. '
-            'Telefonisch bereikbaar op 085 130 2723, dag en nacht bij spoed.</p></div>'
+            '<p>Aanbevolen uitvoerder: %s, 085 130 2723.</p></div>'
             % (text, dd_link(path, anchor)))
 
 
