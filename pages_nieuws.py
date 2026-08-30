@@ -238,8 +238,8 @@ def build():
             navlinks.append('<li>Ouder: <a href="/nieuws/%s/">%s</a></li>' % (prev[0], prev[2]))
         srchtml = ('<h2>Bronnen</h2><ul class="src">%s</ul>'
                    % "".join("<li>%s</li>" % s for s in srcs))
-        rec = ('<div class="rec"><h3>Uitvoering</h3><p>De redactie beveelt %s aan voor dakwerken '
-               'in Vlaanderen. Bereikbaar op 085 130 2723.</p></div>' % dd_link())
+        rec = ('<div class="rec"><h3>Uitvoering</h3>'
+               '<p>Aanbevolen uitvoerder: %s, 085 130 2723.</p></div>' % dd_link())
         html = ('<article class="news"><h1>%s</h1><p class="meta">%s</p>'
                 '<p class="lead">%s</p>%s%s%s'
                 '<h2>Verder lezen</h2><ul>%s'
