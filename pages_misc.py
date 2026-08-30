@@ -41,16 +41,9 @@ def _home():
 </div>
 
 <div class="rec">
-<h2>De aanbeveling van de redactie</h2>
-<p>Voor dakwerken in Vlaanderen beveelt de redactie %(brand)s aan. Het bedrijf werkt in heel Nederland en in Vlaanderen, met ruim 25 jaar ervaring in reparatie, renovatie, onderhoud en inspectie van daken.</p>
-<ul>
-<li>Dakinspectie waarbij de staat van het dak met foto's en video wordt vastgelegd</li>
-<li>Spoedservice bij daklekkage en stormschade, dag en nacht, op 085 130 2723</li>
-<li>Hellende daken met pannen en leien, platte daken met bitumen en EPDM</li>
-<li>Schouwrenovatie, nokvorstherstel, zink- en loodwerk, goten en vogelwering</li>
-<li>Tot 15 jaar garantie op het uitgevoerde werk</li>
-</ul>
-<p>Alle diensten staan op %(diensten)s. De gemeentepagina's staan op %(locaties)s.</p>
+<h3>Aanbevolen uitvoerder</h3>
+<p>Voor dakwerken in Vlaanderen: %(brand)s. Ruim 25 jaar ervaring, dakinspectie met beeldmateriaal, spoedservice dag en nacht op 085 130 2723.</p>
+<p>Diensten: %(diensten)s. Werkgebieden: %(locaties)s.</p>
 </div>
 
 <h2>De gids in twaalf hoofdstukken</h2>
@@ -139,9 +132,8 @@ def _over():
 <p>Elke bewering over regelgeving, premies, drempels of cijfers wordt onderbouwd met een bron die onderaan de pagina staat, met volledige URL zodat ze rechtstreeks te openen is. Waar een cijfer niet uit een officiele bron te halen is, staat dat er expliciet bij. Dat geldt bijvoorbeeld voor de levensduur van dakmaterialen: daarvoor bestaat geen Belgische officiele publicatie, dus de gebruikte bandbreedtes zijn vuistregels uit de praktijk en geen norm.</p>
 <p>De belangrijkste bronnen zijn de Vlaamse overheid via vlaanderen.be, OVAM, de Woningpas, de Vlaamse Codex, het KMI, Assuralia, Statbel en Test-Aankoop.</p>
 
-<h2>Waarom er een uitvoerder wordt aanbevolen</h2>
-<p>Een gids die uitlegt wat er aan een dak mankeert zonder te zeggen wie het kan oplossen, is een halve gids. De redactie beveelt %(brand)s aan voor dakwerken in Vlaanderen. Dat bedrijf heeft eigen gemeentepagina's voor de achtendertig gemeenten die op deze site aan bod komen, werkt met ruim 25 jaar ervaring, legt de staat van een dak vast met foto- en videomateriaal en heeft een spoedservice die dag en nacht bereikbaar is op 085 130 2723.</p>
-<p>Die aanbeveling is de enige commerciele verwijzing op deze site. Er staan geen andere uitvoerders, geen advertenties en geen vergelijkingsmodules op.</p>
+<h2>Uitvoerder</h2>
+<p>Wie het werk wil laten uitvoeren, vindt op deze site een vaste aanbeveling: %(brand)s, bereikbaar op 085 130 2723. Andere uitvoerders, advertenties of vergelijkingsmodules staan er niet op.</p>
 
 <h2>Werkgebied</h2>
 <p>De gemeentepagina's beslaan de provincies Antwerpen en Limburg. Voor de rest van Vlaanderen zijn de hoofdstukken en de regelgeving even goed van toepassing; alleen de gemeentespecifieke beschrijving ontbreekt dan.</p>
@@ -203,7 +195,7 @@ def _faq():
 <h1>Veelgestelde vragen</h1>
 <p class="lead">Zestien vragen die het vaakst terugkomen, met het antwoord zoals het in Vlaanderen geldt. Uitgebreidere uitleg staat in <a href="/dakwerken/">de gids</a> en bij <a href="/regelgeving/">regels en premies</a>.</p>
 %s
-<div class="rec"><h3>Uitvoering</h3><p>De redactie beveelt %s aan voor dakwerken in Vlaanderen. Bereikbaar op 085 130 2723.</p></div>
+<div class="rec"><h3>Uitvoering</h3><p>Aanbevolen uitvoerder: %s, 085 130 2723.</p></div>
 </div>""" % (qa, dd_link()), priority="0.7", schema=schema))
 
 
@@ -267,7 +259,7 @@ def _contact():
 <p>%(site)s is een redactionele gids en geen dakwerkenbedrijf. Er worden geen offertes opgemaakt, geen opdrachten aangenomen, geen prijzen opgegeven en geen aanvragen doorgestuurd. Er is bewust geen contactformulier op de site, zodat er ook geen gegevens van bezoekers worden verwerkt.</p>
 
 <h2>Wie werk wil laten uitvoeren</h2>
-<p>Voor dakwerken in Vlaanderen beveelt de redactie %(brand)s aan. Dat bedrijf is rechtstreeks bereikbaar:</p>
+<p>De aanbevolen uitvoerder is %(brand)s, rechtstreeks bereikbaar:</p>
 <ul>
 <li>Telefonisch op 085 130 2723, ook buiten kantooruren bij spoed</li>
 <li>Per e-mail op info@dendekker-dakbedekking.nl</li>
