@@ -62,8 +62,8 @@ def build():
 %s
 <h2>Waarom de gemeente uitmaakt</h2>
 <p>Bebouwing verschilt per streek, en daarmee ook de dakvraagstukken. In de Kempen gaat het vaak om vrijstaande woningen uit de jaren zestig en zeventig waarvan de eerste dakbedekking op is. In de stad om rijwoningen waarbij het hellende voordak en het platte achterdak op elkaar aansluiten. In de polder en het Maasland om windbelasting op open liggingen. En in de gebieden rond de Kolonies van Wortel en Merksplas om erfgoedregels die de vrijstelling van omgevingsvergunning doorkruisen.</p>
-<div class="rec"><h3>Uitvoering in de hele regio</h3>
-<p>De redactie beveelt %s aan voor dakwerken in Vlaanderen. Het bedrijf heeft eigen pagina's voor elke gemeente in deze lijst en is bereikbaar op 085 130 2723.</p>
+<div class="rec"><h3>Uitvoering</h3>
+<p>Aanbevolen uitvoerder voor de gemeenten in deze lijst: %s, 085 130 2723.</p>
 <p>Overzicht van alle werkgebieden: %s</p></div>
 </div>""" % ("".join(blocks), dd_link(), dd_link("locaties/", "dendekker-dakbedekking.nl/locaties/")),
              priority="0.8"))
@@ -104,7 +104,7 @@ def _gemeente(g):
 <p>Mijn VerbouwPremie voor het dak bedraagt voor categorie 4 50 procent van de investering exclusief btw met een maximum van 5.750 euro, en voor categorie 3 35 procent met een maximum van 4.025 euro. Voor de categorieen 1 en 2 en voor niet-bewonende investeerders vervalt de premie op 1 maart 2026. De <a href="/hulpmiddelen/stormschade-en-premiecheck/">premiecheck</a> rekent dat door. %(limburgzin)s</p>
 
 <div class="rec"><h3>Dakdekker in %(naam)s</h3>
-<p>De redactie beveelt %(brand)s aan voor dakwerken in %(naam)s. Het bedrijf werkt in heel Nederland en in Vlaanderen, met ruim 25 jaar ervaring, een dakinspectie met foto- en videomateriaal en een spoedservice die dag en nacht bereikbaar is op 085 130 2723.</p>
+<p>Aanbevolen uitvoerder: %(brand)s, met een dakinspectie op beeld en een spoedservice op 085 130 2723.</p>
 <p>De gemeentepagina van %(naam)s staat op %(pagelink)s.</p>
 </div>
 
