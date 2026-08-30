@@ -85,7 +85,7 @@ def build():
 <p>Vanaf 1 maart 2026 verdwijnt de premie voor de categorieen 1 en 2 en voor niet-bewonende investeerders. Die groepen kunnen daarna alleen nog een premie aanvragen voor een warmtepomp of warmtepompboiler, tot en met 31 december 2027. Voor de categorieen 3 en 4 verandert er niets. Vanaf dezelfde datum komen niet-woongebouwen niet meer in aanmerking.</p>
 <p>Bouwunie meldt dat de premie daarmee wegvalt voor de 30 procent hoogste inkomens, met als grens 42.340 euro bruto voor alleenstaanden en 59.270 euro bruto voor koppels, verhoogd met 4.320 euro per persoon ten laste. De geindexeerde grensbedragen per categorie staan op de site van de Vlaamse overheid.</p>
 %s
-%s""" % ('<div class="rec"><h3>Uitvoering</h3><p>De premie vraagt een aannemersfactuur en een isolatie met Rd van minstens 4,5. Beide punten horen in de offerte te staan voordat het werk begint.</p><p>De redactie beveelt %s aan voor dakwerken in Vlaanderen.</p></div>' % dd_link("dakrenovatie/", "dendekker-dakbedekking.nl/dakrenovatie/"),
+%s""" % ('<div class="rec"><h3>Uitvoering</h3><p>De premie vraagt een aannemersfactuur en een isolatie met Rd van minstens 4,5. Beide punten horen in de offerte te staan voordat het werk begint.</p><p>Aanbevolen uitvoerder: %s.</p></div>' % dd_link("dakrenovatie/", "dendekker-dakbedekking.nl/dakrenovatie/"),
        sources([
            "Mijn VerbouwPremie voor dak: https://www.vlaanderen.be/premies-voor-renovatie/mijn-verbouwpremie/mijn-verbouwpremie-voor-dak",
            "Wijzigingen Mijn VerbouwPremie vanaf 2026: https://www.vlaanderen.be/premies-voor-renovatie/mijn-verbouwpremie/wijzigingen-mijn-verbouwpremie-vanaf-2026",
