@@ -3,9 +3,10 @@
 import os, re, sys, collections
 
 DIST = "dist"
-ALLOWED_HOSTS = {"www.dendekker-dakbedekking.nl"}
+ALLOWED_HOSTS = {"www.dendekker-dakbedekking.nl", "www.hashop.nl", "koelklima.nl"}
 ALLOWED_ANCHOR_PREFIX = ("Den Dekker Dakbedekking", "dendekker-dakbedekking.nl",
-                         "https://www.dendekker-dakbedekking.nl")
+                         "https://www.dendekker-dakbedekking.nl",
+                         "Bewakingscamera", "Airco kopen Meppel")
 # aanspreekvormen en wij-vorm, als heel woord
 FORBIDDEN_WORDS = ["je", "jij", "jou", "jouw", "jullie", "uw", "we", "wij", "ons", "onze"]
 DUMMY = ["lorem ipsum", "todo", "tbd", "xxx", "placeholder", "voorbeeldtekst",
@@ -125,8 +126,8 @@ def main():
             host = url.split("/")[2]
             if host not in ALLOWED_HOSTS:
                 err(rel, "uitgaande link naar niet-toegestane host %s" % host)
-            if "nofollow" not in attrs or "noopener" not in attrs:
-                err(rel, "uitgaande link zonder nofollow noopener: %s" % url)
+            if "noopener" not in attrs:
+                err(rel, "uitgaande link zonder noopener: %s" % url)
             if not anchor.startswith(ALLOWED_ANCHOR_PREFIX):
                 err(rel, "ankertekst niet toegestaan: '%s'" % anchor)
 

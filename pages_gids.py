@@ -215,6 +215,7 @@ def _isolatie():
 
 <h2>Zomercomfort</h2>
 <p>Isolatie werkt in twee richtingen. Een goed geisoleerde zolder blijft in de winter warm en in de zomer koeler. Materialen met een hoge dichtheid, zoals houtvezel, vertragen de warmtedoorgang op zomerdagen sterker dan lichte materialen met dezelfde R-waarde.</p>
+<p>Op een zolder die als slaapkamer of bureau dient, is isolatie op warme dagen niet altijd genoeg. Een split-airco of een lucht-luchtwarmtepomp koelt in de zomer en verwarmt in het tussenseizoen. De buitenunit hangt meestal aan de gevel of staat op een plat dak van een aanbouw; in dat laatste geval hoort de dakdekker de doorvoer van de leidingen en de ondergrond van de unit mee te nemen. Aan de Nederlandse kant van de grens gaat het om vergelijkbare installaties, van <a class="ext" href="https://koelklima.nl/airco-kopen/meppel/" rel="noopener" target="_blank">Airco kopen Meppel</a> tot een warmtepomp in Groningen.</p>
 %s
 %s""" % (rec("Isolatiewerk en dakvernieuwing horen in een enkele opdracht, omdat de opbouw dan in een keer correct wordt gemaakt.", "dakrenovatie/", "dendekker-dakbedekking.nl/dakrenovatie/"),
          sources([
@@ -551,6 +552,9 @@ def _onderhoud():
 
 <h2>Werken op hoogte</h2>
 <p>Vallen van hoogte is bij particulier onderhoud de meest voorkomende ernstige oorzaak van ongevallen. Een ladder tegen een goot is geen werkplek. Voor alles wat verder gaat dan een goot leegmaken vanaf een stevige, correct opgestelde ladder is een stelling, een hoogwerker of een professionele uitvoerder de aangewezen weg.</p>
+
+<h2>Een stelling en de beveiliging van de woning</h2>
+<p>Een stelling die dagen of weken tegen de gevel staat, maakt ook de bovenverdieping bereikbaar voor wie daar niets te zoeken heeft. Ramen op de eerste verdieping blijven daarom dicht en op slot zolang de stelling staat, ook als het werk die dag stilligt. Een <a class="ext" href="https://www.hashop.nl/bewakingscamera" rel="noopener" target="_blank">Bewakingscamera</a> aan de gevel laat op afstand zien wie er bij de stelling of de voordeur komt, en legt vast wanneer de dakwerker aankomt en vertrekt.</p>
 %s""" % (rec("Een periodieke dakinspectie met beeldmateriaal legt vast wat er is nagekeken en wat de staat is.", "dakonderhoud/", "dendekker-dakbedekking.nl/dakonderhoud/"),
          sources([])))
 

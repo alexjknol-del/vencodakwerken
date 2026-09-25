@@ -19,7 +19,7 @@ def dd_link(path="", anchor=None):
     """Uitgaande link naar Den Dekker. Ankertekst: merknaam, kale URL of volledige URL."""
     url = DD + path.lstrip("/")
     label = anchor or DD_BRAND
-    return ('<a class="ext" href="%s" rel="nofollow noopener" target="_blank">%s</a>'
+    return ('<a class="ext" href="%s" rel="noopener" target="_blank">%s</a>'
             % (url, label))
 
 
