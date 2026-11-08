@@ -68,6 +68,7 @@ FOOTER_COLS = [
         ("/nieuws/", "Nieuws"),
         ("/privacybeleid/", "Privacybeleid"),
         ("/cookiebeleid/", "Cookiebeleid"),
+        ("/partners/", "Partners"),
     ]),
 ]
 

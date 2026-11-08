@@ -3,8 +3,8 @@
 import os, re, sys, collections
 
 DIST = "dist"
-ALLOWED_HOSTS = {"www.dendekker-dakbedekking.nl", "www.hashop.nl", "koelklima.nl"}
-ALLOWED_ANCHOR_PREFIX = ("Den Dekker Dakbedekking", "dendekker-dakbedekking.nl",
+ALLOWED_HOSTS = {"kooijdaktechniek.nl", "www.dendekker-dakbedekking.nl", "www.hashop.nl", "koelklima.nl"}
+ALLOWED_ANCHOR_PREFIX = ("dakdekker Wateringen", "Den Dekker Dakbedekking", "dendekker-dakbedekking.nl",
                          "https://www.dendekker-dakbedekking.nl",
                          "Bewakingscamera", "Airco kopen Meppel")
 # aanspreekvormen en wij-vorm, als heel woord
